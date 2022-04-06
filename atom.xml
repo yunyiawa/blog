@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>yunyi&#39;s blog</title>
   
   
   <link href="https://yunyiawa.github.io/hexo/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>https://yunyiawa.github.io/hexo/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>羽宫 昀熠</name>
     
   </author>
   
