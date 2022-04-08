@@ -2,9 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yunyiawa.top/friends/</loc>
+    
+    <lastmod>2022-04-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yunyiawa.top/mylist/</loc>
+    
+    <lastmod>2022-04-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://yunyiawa.top/categories/</loc>
     
-    <lastmod>2022-04-07</lastmod>
+    <lastmod>2022-04-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yunyiawa.top/about/</loc>
+    
+    <lastmod>2022-04-08</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -40,7 +67,7 @@
 
   <url>
     <loc>http://yunyiawa.top/</loc>
-    <lastmod>2022-04-07</lastmod>
+    <lastmod>2022-04-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
