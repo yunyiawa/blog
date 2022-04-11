@@ -21,7 +21,7 @@
   <meta content="yunyi&#39;s blog" name="apple-mobile-web-app-title">
   <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style">
   <meta content="telephone=no" name="format-detection">
-  <link rel="preload" href="/css/style.css?time=1649432588876" as="style">
+  <link rel="preload" href="/css/style.css?time=1649677858466" as="style">
   <link rel="preload" href="/media/fonts/VarelaRound/VarelaRound-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 <link rel="preload" href="/media/fonts/UbuntuMono/UbuntuMono-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 
@@ -1630,8 +1630,8 @@ ul.list-v >li>a:hover {
 }
 
   </style>
-  <link rel="stylesheet" href="/css/style.css?time=1649432588876" media="print" onload="this.media='all';this.onload=null">
-  <noscript><link rel="stylesheet" href="/css/style.css?time=1649432588876"></noscript>
+  <link rel="stylesheet" href="/css/style.css?time=1649677858466" media="print" onload="this.media='all';this.onload=null">
+  <noscript><link rel="stylesheet" href="/css/style.css?time=1649677858466"></noscript>
   
 <script>
 if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMode))
@@ -1702,9 +1702,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   volantis.dom = {}; // 页面Dom see: /source/js/app.js etc.
 
   volantis.GLOBAL_CONFIG ={
-    cdn: {"js":{"app":"/js/app.js?time=1649432588876","sites":"/js/plugins/sites.js?time=1649432588876","friends":"/js/plugins/friends.js?time=1649432588876","parallax":"/js/plugins/parallax.js?time=1649432588876","rightMenu":"/js/plugins/rightMenu.js?time=1649432588876","contributors":"/js/plugins/contributors.js?time=1649432588876","message":"/js/thirdparty/message.js?time=1649432588876","search":"/js/search/hexo.js?time=1649432588876"},"css":{"style":"/css/style.css?time=1649432588876","message":"/css/message.css?time=1649432588876"}},
+    cdn: {"js":{"app":"/js/app.js?time=1649677858466","sites":"/js/plugins/sites.js?time=1649677858466","friends":"/js/plugins/friends.js?time=1649677858466","parallax":"/js/plugins/parallax.js?time=1649677858466","rightMenu":"/js/plugins/rightMenu.js?time=1649677858466","contributors":"/js/plugins/contributors.js?time=1649677858466","message":"/js/thirdparty/message.js?time=1649677858466","search":"/js/search/hexo.js?time=1649677858466"},"css":{"style":"/css/style.css?time=1649677858466","message":"/css/message.css?time=1649677858466"}},
     default: {"avatar":"/media/placeholder/avatar/round/3442075.svg","link":"/media/placeholder/link/8f277b4ee0ecd.svg","cover":"/media/placeholder/cover/76b86c0226ffd.svg","image":"/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1649432588876),
+    lastupdate: new Date(1649677858466),
     sidebar: {
       for_page: ["blogger","category","tagcloud","donate"],
       for_post: ["blogger","category","tagcloud","donate","toc"],
@@ -2688,7 +2688,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 <!-- internal -->
 
-<script src="/js/app.js?time=1649432588876.js"></script>
+<script src="/js/app.js?time=1649677858466.js"></script>
 
 
 
@@ -2881,7 +2881,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
     </ul>
   </div>
-  <script>volantis.js('/js/plugins/rightMenu.js?time=1649432588876')</script>
+  <script>volantis.js('/js/plugins/rightMenu.js?time=1649677858466')</script>
 
 
 
@@ -2894,19 +2894,19 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
       const sites_api = document.getElementById('sites-api');
       if (sites_api != undefined && typeof SitesJS === 'undefined') {
-        volantis.js("/js/plugins/sites.js?time=1649432588876")
+        volantis.js("/js/plugins/sites.js?time=1649677858466")
       }
     
     
       const friends_api = document.getElementById('friends-api');
       if (friends_api != undefined && typeof FriendsJS === 'undefined') {
-        volantis.js("/js/plugins/friends.js?time=1649432588876")
+        volantis.js("/js/plugins/friends.js?time=1649677858466")
       }
     
     
       const contributors_api = document.getElementById('contributors-api');
       if (contributors_api != undefined && typeof ContributorsJS === 'undefined') {
-        volantis.js("/js/plugins/contributors.js?time=1649432588876")
+        volantis.js("/js/plugins/contributors.js?time=1649677858466")
       }
     
   };
@@ -2975,7 +2975,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     await volantis.js("https://npm.elemecdn.com/meting@2.0/dist/Meting.min.js")
   
     // 右键 music 需要在 APlayer  MetingJS 之后加载
-    await volantis.js('/js/plugins/aplayer.js?time=1649432588876')
+    await volantis.js('/js/plugins/aplayer.js?time=1649677858466')
   
   })();
 
@@ -3046,51 +3046,65 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
   <script>
-  volantis.layoutHelper("comments",`<div id="giscus_container"></div>`)
+  volantis.layoutHelper("comments",`<div id="beaudar_container"></div>`)
 
-  volantis.giscus = {};
+  volantis.beaudar = {};
 
-  function check_giscus() {
+  function check_beaudar() {
     if (volantis.dark.mode === "dark") {
-      volantis.giscus.Theme = 'dark';
+      volantis.beaudar.Theme = 'github-dark';
     } else {
-      volantis.giscus.Theme = 'light';
+      volantis.beaudar.Theme = 'github-light';
     }
 
-    return document.getElementById("giscus_container");
+    return document.getElementById("beaudar_container");
   }
 
-  function pjax_giscus() {
-    const HEAD = check_giscus();
+  function pjax_beaudar() {
+    const HEAD = check_beaudar();
     if (!HEAD) return;
-    let cfg = Object.assign({"repo":"yunyiawa/blog","repo-id":"R_kgDOHIncVw","category":"Announcements","category-id":"xxx\"DIC_kwDOHIncV84COeXU\"","mapping":"pathname","reactions-enabled":"1","emit-metadata":"0","lang":"zh-CN","data-input-position":"top","crossorigin":"anonymous","theme":{"light":"light","dark":"dark"}},pdata.commentConfig)
+
     const script = document.createElement('script');
-    script.setAttribute('src', 'https://giscus.app/client.js');
-    Object.keys(cfg).forEach(k=>{
-      if (k != "theme") {
-        script.setAttribute('data-'+k, cfg[k]);
-      }
-    })
-    script.setAttribute('data-theme', volantis.giscus.Theme);
+    let issuenumber = "";
+    if (issuenumber) {
+      script.setAttribute('issue-number', issuenumber);
+    } else {
+      script.setAttribute('issue-term', "pathname");
+    }
+    script.setAttribute('src', 'https://beaudar.lipk.org/client.js');
+    script.setAttribute('repo', 'yunyiawa/blog');
+    script.setAttribute('input-position', 'top');
+    script.setAttribute('branch', 'main');
+    script.setAttribute('comment-order', 'desc');
+    script.setAttribute('label', '✨💬✨');
+    script.setAttribute('theme', volantis.beaudar.Theme);
     script.setAttribute('crossorigin', "anonymous");
     HEAD.appendChild(script);
   }
 
-  function dark_giscus() {
-    const HEAD = check_giscus();
+  function dark_beaudar() {
+    const HEAD = check_beaudar();
     if (!HEAD) return;
 
     const message = {
-      setConfig: {
-        theme: volantis.giscus.Theme
-      }
+      type: 'set-theme',
+      theme: volantis.beaudar.Theme
     };
-    const giscusIframe = document.querySelector('iframe.giscus-frame');
-    giscusIframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+    const beaudarIframe = document.querySelector('iframe');
+    beaudarIframe.contentWindow.postMessage(message, 'https://beaudar.lipk.org');
   }
-  pjax_giscus();
-  volantis.pjax.push(pjax_giscus);
-  volantis.dark.push(dark_giscus);
+  
+  function check_beaudar_style() {
+    // Beaudar 会往 HEAD 的首节点追加样式元素，而这个追加没有添加判断
+    // 所以 Pjax 下会多次添加样式文件，略微麻烦。
+    const checkStyle = document.querySelector('head').firstElementChild;
+    if(checkStyle.innerText.includes('beaudar')) checkStyle.remove();
+  }
+  
+  pjax_beaudar();
+  volantis.pjax.push(check_beaudar_style);
+  volantis.pjax.push(pjax_beaudar);
+  volantis.dark.push(dark_beaudar);
 </script>
 
 
@@ -3107,7 +3121,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   function loadSearchScript() {
     // see: layout/_partial/scripts/_ctrl/cdnCtrl.ejs
-    return volantis.js("/js/search/hexo.js?time=1649432588876");
+    return volantis.js("/js/search/hexo.js?time=1649677858466");
   }
 
   function loadSearchService() {
@@ -3176,7 +3190,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
   <script>
-  let imgs = ["https://img.yunyiawa.top/banner_5.jpg","https://img.yunyiawa.top/banner_1.jpg","https://img.yunyiawa.top/banner_8.jpg","https://img.yunyiawa.top/banner_7.jpg","https://img.yunyiawa.top/banner_6.jpg","https://img.yunyiawa.top/banner_4.jpg","https://img.yunyiawa.top/banner_10.jpg","https://img.yunyiawa.top/banner_2.jpg","https://img.yunyiawa.top/banner_3.jpg","https://img.yunyiawa.top/banner_9.jpg"];
+  let imgs = ["https://img.yunyiawa.top/banner_10.jpg","https://img.yunyiawa.top/banner_4.jpg","https://img.yunyiawa.top/banner_7.jpg","https://img.yunyiawa.top/banner_9.jpg","https://img.yunyiawa.top/banner_3.jpg","https://img.yunyiawa.top/banner_2.jpg","https://img.yunyiawa.top/banner_6.jpg","https://img.yunyiawa.top/banner_5.jpg","https://img.yunyiawa.top/banner_1.jpg","https://img.yunyiawa.top/banner_8.jpg"];
   let index = 0;
   let IntervalParallax = null;
 
@@ -3217,7 +3231,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   var runningOnBrowser = typeof window !== "undefined";
   var isBot = runningOnBrowser && !("onscroll" in window) || typeof navigator !== "undefined" && /(gle|ing|ro|msn)bot|crawl|spider|yand|duckgo/i.test(navigator.userAgent);
   if (!isBot) {
-    volantis.js('/js/plugins/parallax.js?time=1649432588876').then(()=>{
+    volantis.js('/js/plugins/parallax.js?time=1649677858466').then(()=>{
       parallax()
     })
     volantis.pjax.send(()=>{
